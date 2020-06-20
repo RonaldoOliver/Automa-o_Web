@@ -1,0 +1,84 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-20T01:27:13.272Z",
+        "line": 17,
+        "name": "Validar login com sucesso.",
+        "description": "",
+        "id": "validar-login;validar-login-com-sucesso.;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2426000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que tenha acessado a tela de login",
+            "match": {
+              "location": "br.ronaldomello.web.StepsDefinitions.validarLoginSteps.que_tenha_acessado_a_tela_de_login()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher realizar login com os dados \"ronald@hotmail.com\" e \"102030\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ronald@hotmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"102030\"",
+                  "offset": 61
+                }
+              ],
+              "location": "br.ronaldomello.web.StepsDefinitions.validarLoginSteps.preencher_realizar_login_com_os_dados(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "deve ser validado login com sucesso",
+            "match": {
+              "location": "br.ronaldomello.web.StepsDefinitions.validarLoginSteps.deve_ser_validado_login_com_sucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Validar Login",
+    "description": "  Como usuário devo acessar o sistema\n  eu quero poder validar o login da aplicacao\n  para que eu possa acessar o sitema",
+    "id": "validar-login",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
